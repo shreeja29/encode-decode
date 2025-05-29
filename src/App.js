@@ -42,7 +42,7 @@ function App() {
   };
 
   const handleEncodeDecode = async (mode) => {
-    const url = `http://localhost:3000/${mode}`;
+    const url = `https://encode-decode-pnsk.onrender.com/${mode}`;
     const bodyKey = mode === "encode" ? "text" : "encoded";
     const body = { [bodyKey]: inputText };
 
